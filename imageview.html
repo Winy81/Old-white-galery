@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" media="screen" href="imagevstyle.css">
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="K, 24 febr. 2015 21:32:46 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+imgs=Array("images/large/1large.jpg","images/large/2large.jpg","images/large/3large.jpg");
+var x=0;
+
+function swap() {
+document.getElementById("picture").src= imgs[++x];
+
+if (x==2) {
+x=-1;
+
+}
+
+}
+
+imgs=Array("images/large/2large.jpg","images/large/3large.jpg","images/large/1large.jpg");
+var x=0;
+
+function swap2() {
+document.getElementById("picture").src=imgs[++x];
+
+if (x==2) {
+x=-1;
+}
+}
+ 
+
+
+</script>
+
+  </head>
+<body>
+  
+ <div id="extratop">
+  
+ </div>
+ <header id="main">
+  <div class="top_details">
+   <ul class="menu">
+    <li class="menuin"><a href="katedesign.html#mydetails">Contact</a></li>
+	<li class="menuin2"><a href="#">About ME</a></li>
+	<li class="menuin3"><a href="#">E-mail</a></li>
+   </ul>
+  </div>
+  <div class="logo">
+   <h1 id="cim">Design galery</h1> 
+  </div>
+ </header>
+
+ <article id="middle">
+  <div class="headerbottom">
+   <h2>My Logos:</h2>
+  </div>
+  <div id="content">
+   <a href="#" value="swapimg" onClick="swap()"><div class="leftbutton">Previous</div></a>
+   <div class="image" ><img id="picture" src="images/large/1large.jpg" name="first" width="800" height="600"  alt="image"></div>
+   <a href="#" value="swapimg" onClick="swap2()"><div class="rightbutton">Next</div></a>
+  </div>
+  <div class="backtomain">
+   <a href="katedesign.html" value="home"><div class="backbutton">Back</div></a>
+  </div>
+  
+  
+ </article>
+ 
+ <div id="sidebar">
+   <div class="sidebarlogo">
+    <h4><li class="sidebarcontroll"><a href="#"><br>Links</a></li></h4>
+   </div>
+   <div class="sidebarin">
+    <div class="sidebarmenu">
+     <ul>
+      <li class="sidebarmenuin1"><a href="#">Home</a></li>
+	  <li class="sidebarmenuin2"><a href="#">News</a></li>
+	  <li class="sidebarmenuin3"><a href="#">Choco</a></li>
+      <li class="sidebarmenuin4"><a href="#">Steel</a></li>
+    </ul>
+   </div>
+  </div>
+
+  </div>
+
+  <footer id="bottom">
+   <div class="bottomlogo">
+    <h3>- Logo Designer: Kate Kiss - Web designer: Adam Nemeth -</h3>
+   </div>
+    <div class="bottomin">
+      
+    </div>
+   <div class="bottomlogo2">
+    <h3>Designed with: Html5 CSS Jscript</h3>
+   </div>
+  </footer>
+</body>
+</html>
